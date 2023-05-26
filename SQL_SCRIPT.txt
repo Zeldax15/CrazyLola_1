@@ -1,0 +1,11 @@
+CREATE DATABASE CRAZYLOLA
+
+use CRAZYLOLA
+
+CREATE TABLE USUARIO(
+IdUsuario int primary key identity,
+nombre_usuario varchar(50),
+Clave varchar(100)
+)
+
+select * from USUARIO
