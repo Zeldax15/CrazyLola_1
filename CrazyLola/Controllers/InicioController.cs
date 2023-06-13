@@ -5,6 +5,9 @@ using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authentication;
 using CrazyLola.Models;
 using Crazylola.Recursos;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.StaticFiles;
+using System.IO;
 
 
 namespace CrazyLola.Controllers
@@ -39,6 +42,30 @@ namespace CrazyLola.Controllers
         public IActionResult IniciarSesion()
         {
             return View();
+        }
+        public IActionResult VerDocumento()
+        {
+            // Lógica para obtener la ruta del documento
+            string rutaDocumento = "C:/Users/Dany0/Documents/CVOscarDanielValleHernandez.docx"; // Reemplaza con la ruta correcta
+
+            // Verifica que el archivo exista
+            if (!System.IO.File.Exists(rutaDocumento))
+            {
+                return NotFound();
+            }
+
+            // Obtén el tipo MIME del archivo
+            var proveedorMIME = new FileExtensionContentTypeProvider();
+            if (!proveedorMIME.TryGetContentType(rutaDocumento, out string mimeType))
+            {
+                mimeType = "application/octet-stream";
+            }
+
+            // Lee el contenido del archivo
+            byte[] contenido = System.IO.File.ReadAllBytes(rutaDocumento);
+
+            // Retorna el archivo como un archivo para descargar en el navegador
+            return File(contenido, mimeType);
         }
 
         [HttpPost]

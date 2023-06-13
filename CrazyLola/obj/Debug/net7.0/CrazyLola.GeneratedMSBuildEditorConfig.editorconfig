@@ -9,45 +9,49 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = CrazyLola
 build_property.RootNamespace = CrazyLola
-build_property.ProjectDir = c:\Users\Willi\OneDrive\Documentos\Clases\HDP\CrazyLola\CrazyLola\
+build_property.ProjectDir = C:\Users\Dany0\source\repos\CrazyLola_1\CrazyLola\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = c:\Users\Willi\OneDrive\Documentos\Clases\HDP\CrazyLola\CrazyLola
+build_property.MSBuildProjectDirectory = C:\Users\Dany0\source\repos\CrazyLola_1\CrazyLola
 build_property._RazorSourceGeneratorDebug = 
 
-[c:/Users/Willi/OneDrive/Documentos/Clases/HDP/CrazyLola/CrazyLola/Views/Home/Index.cshtml]
+[C:/Users/Dany0/source/repos/CrazyLola_1/CrazyLola/Views/Home/Importar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbXBvcnRhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dany0/source/repos/CrazyLola_1/CrazyLola/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Willi/OneDrive/Documentos/Clases/HDP/CrazyLola/CrazyLola/Views/Home/Privacy.cshtml]
+[C:/Users/Dany0/source/repos/CrazyLola_1/CrazyLola/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Willi/OneDrive/Documentos/Clases/HDP/CrazyLola/CrazyLola/Views/Inicio/IniciarSesion.cshtml]
+[C:/Users/Dany0/source/repos/CrazyLola_1/CrazyLola/Views/Inicio/IniciarSesion.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5pY2lvXEluaWNpYXJTZXNpb24uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Willi/OneDrive/Documentos/Clases/HDP/CrazyLola/CrazyLola/Views/Inicio/Registrarse.cshtml]
+[C:/Users/Dany0/source/repos/CrazyLola_1/CrazyLola/Views/Inicio/Registrarse.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5pY2lvXFJlZ2lzdHJhcnNlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Willi/OneDrive/Documentos/Clases/HDP/CrazyLola/CrazyLola/Views/Shared/Error.cshtml]
+[C:/Users/Dany0/source/repos/CrazyLola_1/CrazyLola/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Willi/OneDrive/Documentos/Clases/HDP/CrazyLola/CrazyLola/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Dany0/source/repos/CrazyLola_1/CrazyLola/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Willi/OneDrive/Documentos/Clases/HDP/CrazyLola/CrazyLola/Views/_ViewImports.cshtml]
+[C:/Users/Dany0/source/repos/CrazyLola_1/CrazyLola/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Willi/OneDrive/Documentos/Clases/HDP/CrazyLola/CrazyLola/Views/_ViewStart.cshtml]
+[C:/Users/Dany0/source/repos/CrazyLola_1/CrazyLola/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Willi/OneDrive/Documentos/Clases/HDP/CrazyLola/CrazyLola/Views/Shared/_Layout.cshtml]
+[C:/Users/Dany0/source/repos/CrazyLola_1/CrazyLola/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-bg84gn5h8g

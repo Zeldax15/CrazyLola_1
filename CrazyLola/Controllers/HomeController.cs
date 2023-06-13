@@ -1,5 +1,6 @@
 ﻿using CrazyLola.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.CodeAnalysis;
 using System.Diagnostics;
 
 namespace CrazyLola.Controllers
@@ -7,6 +8,8 @@ namespace CrazyLola.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
+
+        
 
         public HomeController(ILogger<HomeController> logger)
         {
@@ -18,15 +21,31 @@ namespace CrazyLola.Controllers
             return View();
         }
 
+
         public IActionResult Privacy()
         {
             return View();
         }
+        public IActionResult Importar()
+        {
+            return View();
+        }
+    
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
+
+        
+
+       
+
+        private ActionResult HttpNotFound()
+        {
+            throw new NotImplementedException();
+        }
     }
+
 }
